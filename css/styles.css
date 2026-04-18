@@ -744,6 +744,7 @@ h1, h2, h3{
         border-top: 5px solid var(--color-principal);
         top: auto;
         bottom: 0;
+        height: 70px;
     }
     .link-logo-master, .link-elemento-master p{
         display: none;
@@ -763,9 +764,9 @@ h1, h2, h3{
         transform: scale(1.02);
     }
     .link-elemento-master:nth-of-type(3) i{
-        font-size: 4rem;
+        font-size: 3rem;
         width: 100%;
-        height: 150px;
+        height: 120px;
         background-color: var(--color-secundario);
         border-top-left-radius: 40%;
         border-top-right-radius: 40%;
@@ -787,14 +788,18 @@ h1, h2, h3{
         padding-bottom: 50px;
     }
     .contenedor-presentacion{
-        width: 80%;
+        width: 100%;
         margin-bottom: 50px;
     }
     .titulo-presentacion{
         font-size: 4rem;
+        width: 100%;
+    }
+    .texto-presentacion{
+        width: 60%;
     }
     .imagen-presentacion{
-        width: 60%;
+        width: 80%;
     }
     /* seccion extra */
     .titulo-seccion-extra{
