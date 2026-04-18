@@ -593,11 +593,11 @@ h1, h2, h3{
 
 /* TRANSICIONES */
 @media (hover: hover){
-    /* TRANSICION MENU
+    /* TRANSICION MENU*/
     .link-elemento-master:hover{
         background-color: var(--color-principal);
         color: var(--color-secundario);
-    } */
+    } 
     /* TRANSICION -WEBKIT-SCROLLBAR */
     body::-webkit-scrollbar-thumb:hover{
         background-color: var(--color-principalAlternativo2);
