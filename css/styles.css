@@ -969,7 +969,7 @@ h1, h2, h3{
         border-radius: 8px;
     }
     .imagen{
-        max-height: 500px;
+        max-height: 400px;
     }
     .imagenes::-webkit-scrollbar{
         height: 8px;
