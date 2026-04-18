@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galeria Contenido Mensual</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="icon" type="image/png" href="../img/logos/favicon-32x32.png">
+         <!-- FUENTE DEL TITULO -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+         <!-- FUENTE DEL CUERPO  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- ********* LINK ICONOS -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body class="body-galeria">
+        <div class="galeria">
+            <img src="../img/fotos/ajedrez.jpg" alt="Key Visual" class="portada">
+            <h1 class="titulo-galeria">Contenido Mensual</h1>
+            <div class="contenedor-imagenes">
+                <div class="imagenes">
+                    <img src="../img/contenido/COMANDERA (33).png" alt="Contenido" class="imagen">
+                    <img src="../img/contenido/COMANDERA (9) (1).png" alt="Contenido" class="imagen">
+                    <img src="../img/contenido/Copia de EL MERO(1).png" alt="Contenido" class="imagen">
+                    <img src="../img/contenido/Copia de EL MERO.png" alt="Contenido" class="imagen">
+                    <img src="../img/contenido/Copia de KOTTING FLORERIA.png" alt="Contenido" class="imagen">
+                    <img src="../img/contenido/Copia de MASTERMIND.png" alt="Contenido" class="imagen">
+                    <img src="../img/contenido/Copia de NINFA.png" alt="Contenido" class="imagen">
+                    <img src="../img/contenido/OBSESION(1).webp" alt="Contenido" class="imagen">
+                    <img src="../img/contenido/OBSESION.webp" alt="Contenido" class="imagen">
+                    <img src="../img/contenido/PAGO24.png" alt="Contenido" class="imagen">
+                    <img src="../img/contenido/PAGO24(1).png" alt="Contenido" class="imagen">
+                </div>
+                <i class="fa-solid fa-angle-left" id="izq"></i>
+                <i class="fa-solid fa-angle-right" id="der"></i>
+            </div>
+        </div>
+        <script>
+            const galeria = document.querySelector(".imagenes");
+            const izquierda = document.getElementById("izq");
+            const derecha = document.getElementById("der");
+
+            izquierda.addEventListener("click", () => {
+                galeria.scrollLeft -= 200;
+            });
+            derecha.addEventListener("click", () => {
+                galeria.scrollLeft += 200;
+            });
+
+        </script>
+    </body>
+</html>
