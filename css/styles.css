@@ -969,6 +969,9 @@ h1, h2, h3{
         /* border: 2px solid white; */
         border-radius: 8px;
     }
+    .imagen{
+        max-height: 500px;
+    }
     .imagenes::-webkit-scrollbar{
         height: 8px;
     }
@@ -995,7 +998,7 @@ h1, h2, h3{
     /* menu nav */
     .link-elemento-master:nth-of-type(3) i{
         font-size: 3rem;
-        height: 130px;
+        height: 110px;
     }
     /* primera seccion */
     .logo-primera-seccion{
