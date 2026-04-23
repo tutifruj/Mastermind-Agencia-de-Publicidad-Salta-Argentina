@@ -909,6 +909,7 @@ h1, h2, h3{
         min-height: 150px;
         border: 2px solid var(--color-principal);
         border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(115, 21, 19, 0.5);
     }
 
     .proyecto a{
