@@ -193,7 +193,7 @@ h1, h2, h3{
 .imagen-presentacion img{
     max-height: 400px;
     width: 80%;
-    object-fit: cover;
+    object-fit: contain;
     border: 10px solid var(--color-principal);
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(115, 21, 19, 0.5);
